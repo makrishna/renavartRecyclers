@@ -143,27 +143,27 @@ hr {
 
 /*Section Padding CSS*/
 .section-padding {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-padding {
-    padding: 80px 10px;
+    padding: 40px 10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding {
-    padding: 60px 60px;
+    padding: 30px 30px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-padding {
-    padding: 50px 35px;
+    padding: 25px 18px;
   }
 }
 @media (max-width: 575px) {
   .section-padding {
-    padding: 50px 20px;
+    padding: 25px 10px;
   }
 }
 /*Margin & Padding */
@@ -1326,9 +1326,9 @@ input.form-control {
 }
 .single-slide-item h1 {
   color: #fff;
-  font-size: 90px;
+  font-size: 64px;
   font-weight: 600;
-  line-height: 100px;
+  line-height: 60px;
   letter-spacing: 2px;
   margin: 30px 0;
 }
@@ -1744,7 +1744,7 @@ p.text-black:before {
   top: -5px;
   left: 0;
   width: 3px;
-  height: 120px;
+  height: 190px;
   background: #006600;
 }
 @media (max-width: 767px) {

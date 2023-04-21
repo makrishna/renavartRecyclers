@@ -59,9 +59,9 @@
 		nav: true,
 		loop: true,
 		autoplay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 6000,
 		smartSpeed: 2000,
-		slideSpeed: 600,
+		slideSpeed: 1000,
 		animateOut: 'fadeOut',
 		navText: ["<i class='la la-angle-left'></i>", "<i class='la la-angle-right'></i>",],
 
@@ -89,23 +89,23 @@
 		},
 	});
 
-	$(".homepage-slides").on("translate.owl.carousel", function () {
-		$(".single-slide-item h1")
-			.removeClass("animated fadeInDown")
-			.css("opacity", "1");
-		$(".single-slide-item h5")
-			.removeClass("animated fadeInUp")
-			.css("opacity", "1");
-	});
+	// $(".homepage-slides").on("translate.owl.carousel", function () {
+	// 	$(".single-slide-item h1")
+	// 		.removeClass("animated fadeInDown")
+	// 		.css("opacity", "1");
+	// 	$(".single-slide-item h5")
+	// 		.removeClass("animated fadeInUp")
+	// 		.css("opacity", "1");
+	// });
 
-	$(".homepage-slides").on("translated.owl.carousel", function () {
-		$(".single-slide-item h1")
-			.addClass("animated fadeInDown")
-			.css("opacity", "1");
-		$(".single-slide-item h5")
-			.addClass("animated fadeInUp")
-			.css("opacity", "1");
-	});
+	// $(".homepage-slides").on("translated.owl.carousel", function () {
+	// 	$(".single-slide-item h1")
+	// 		.addClass("animated fadeInDown")
+	// 		.css("opacity", "1");
+	// 	$(".single-slide-item h5")
+	// 		.addClass("animated fadeInUp")
+	// 		.css("opacity", "1");
+	// });
 
 
 	// Service Slider
