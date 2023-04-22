@@ -69,11 +69,11 @@ a {
 
 p {
   font-family: "Catamaran", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 26px;
   position: relative;
-  color: #777;
+  color: #403f3f;
 }
 
 button,
@@ -5854,8 +5854,8 @@ label.form-label {
 }
 
 .promo-bg.bg-cover {
-  width: 286px;
-  height: 300px;
+  width: 380px;
+  height: 344px;
   background-position: top center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
