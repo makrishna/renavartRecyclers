@@ -4992,7 +4992,7 @@ p.privacy a:not(:last-of-type)::after {
 
 .comment-form_input-box textarea {
   font-size: 14px;
-  color: #eee;
+  color: #000;
   height: 180px;
   width: 100%;
   background-color: #edf3f6;
