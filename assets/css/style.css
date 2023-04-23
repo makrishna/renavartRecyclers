@@ -1059,6 +1059,7 @@ input.form-control {
 }
 .header-area .header-inner-box .logo img {
   margin-top: 5px;
+  height: 75px;
 }
 .header-area .header-inner-box .phone-number-box {
   display: flex;
@@ -5968,6 +5969,10 @@ label.form-label {
 
 #promo-2 .promo-content-area {
   padding-left: 30px;
+}
+
+footer .logo img {
+  height: 90px;
 }
 
 /*
